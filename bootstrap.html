@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    
+
+
+
+</head>
+<body>
+  
+    <div class="container">
+        
+
+
+        <div class="jumbotron text-center bg-dark text-light">
+            <h1 class="display-2">My Shopping Cart</h1>
+        </div>
+
+
+        <nav class="navbar bg-primary navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="img/cart.jpg" alt="" height="50"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About us</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Samsung</a></li>
+                      <li><a class="dropdown-item" href="#">I-Phone</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something other phones</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+
+          <br>
+
+
+          <div id="carouselExampleControls" class="carousel slide text-center img-center img-fluid" data-bs-ride="carousel">
+            <div class="carousel-inner text-center ">
+              <div class="carousel-item active text-center">
+                <img src="img/sm1.jpg" class="rounded d-block w-60 justify-content-between b  mx-auto " alt="..." >
+                
+              </div>
+              <div class="carousel-item">
+                <img src="img/sm2.jpg" class="rounded d-block w-60 justify-content-between b mx-auto" alt="..."  >
+                
+              </div>
+              <div class="carousel-item">
+                <img src="img/sm3.jpg" class="d-block w-60 justify-content-between b mx-auto" alt="..." >
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+          <br>
+
+
+        <div class="row justify-content-around t">
+            <div class="card bg-danger text-light col-lg-3 col-xs-12">
+                <img src="img/s1.jpg" alt="" class="container-fluid">
+                <div class="card-body">
+                    <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore ut doloremque sequi est magnam, et tempora dicta illum eaque rem.</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-success">Buy</button>
+                    <button class="btn btn-warning">Sold</button>
+                </div>
+            </div>
+
+            <div class="card bg-danger text-light col-lg-3 col-xs-12">
+                <img src="img/s2.jpg" alt="" class="container-fluid">
+                <div class="card-body">
+                    <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint facere fugiat sit, quisquam a accusantium maxime non delectus esse quam.</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-success">Buy</button>
+                    <button class="btn btn-warning">Sold</button>
+                </div>
+            </div>
+
+            <div class="card bg-danger text-light col-lg-3 col-xs-12">
+                <img src="img/s3.jpg" alt="">
+                <div class="card-body">
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed reiciendis delectus quidem iusto illum a sapiente suscipit dicta et exercitationem!</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-success">Buy</button>
+                    <button class="btn btn-warning">Sold</button>
+                </div>
+            </div>
+
+        </div>
+
+        <br>
+
+        <div class="row justify-content-around ">
+            <div class="card bg-danger text-light col-lg-3 col-xs-12">
+                <img src="img/i2.jpg" alt="">
+                <div class="card-body">
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla fugit praesentium corrupti numquam magnam, eius labore. Fuga laudantium ullam neque!</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-success">Buy</button>
+                    <button class="btn btn-warning">Sold</button>
+                </div>
+            </div>
+
+            <div class="card bg-danger text-light col-lg-3 col-xs-12">
+                <img src="img/i1.jpg" alt="">
+                <div class="card-body">
+                    <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis totam dolorem animi eligendi aperiam neque labore possimus accusamus consequuntur beatae.</p>
+                </div>
+                <div class="footer">
+                    <button class="btn btn-success">Buy</button>
+                    <button class="btn btn-warning">Sold</button>
+                </div>
+            </div>
+
+            <div class="card bg-danger text-light col-lg-3 col-xs-12">
+                <img src="img/i3.jpg" alt="">
+                <div class="card-body">
+                    <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis totam dolorem animi eligendi aperiam neque labore possimus accusamus consequuntur beatae.</p>
+                </div>
+                <div class="footer">
+                    <button class="btn btn-success">Buy</button>
+                    <button class="btn btn-warning">Sold</button>
+                </div>
+            </div>
+             
+        </div>
+
+        <br>
+
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+
+
+
+
+    </div>
+
+</body>
+</html>
